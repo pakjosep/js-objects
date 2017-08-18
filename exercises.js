@@ -18,7 +18,8 @@ Objects in Javascript can be compared to objects in real life. Objects has a col
     Title: "The Obstacle is the Way", 
     Author: "Ryan Holiday", 
     Category: "Self Help",
-    Pages: 200}  
+    Pages: 200,
+  }  
   console.log(books);
   /*
 2.  Declare a variable named `dog` and create the following properties (key-value pairs) to the object:
@@ -75,7 +76,11 @@ console.log(kicks);
             - add a property named `size` and set it to a number value between `0` and `20`.
             - add a property named `contents` and set it to be an empty array.
 */
-
+var plainBox = {};
+plainBox.color = "green";
+plainBox.size = 10;
+plainBox.contents = [];
+console.log(plainBox);
 
 /*
 5. Declare a variable named `stockCar` and create the following properties (key-value pairs) to the object:
@@ -85,8 +90,14 @@ console.log(kicks);
             - add a key named `driver` and set it to be `null`.
             - add a key named `passengers` and set it to be an empty array.
 */
-
-
+var stockCar = {
+  model: "Delorean",
+  year: 2001,
+  automaticTransmission: "false",
+  driver: "null",
+  passengers: [],
+}
+console.log(stockCar);
 /*
 
 6. Add new property inside a function
